@@ -28,5 +28,4 @@ public class AppTheme {
     public static final int APP_PRIMARY_COLOR = R.color.app_primary;
     public static final int APP_SECONDARY_COLOR = R.color.app_secondary;
     public static final int APP_ACCENT_COLOR = R.color.app_accent;
-
 }
