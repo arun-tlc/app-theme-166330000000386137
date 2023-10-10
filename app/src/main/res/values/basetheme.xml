@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Light" parent="Base.Theme.Basetheme">
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="android:windowBackground">@color/light_theme_background</item>
+        <item name="android:fontFamily">@font/lexend</item>
+        <item name="android:textColor">@color/normal_font</item>
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:listMenuViewStyle">@style/MenuTextStyle</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme.Light">
+        <item name="android:windowBackground">@color/dark_theme_background</item>
+        <item name="android:textColor">@color/dark_theme_font</item>
+        <item name="android:fontFamily">@font/lexend</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/title_font</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+    
+    <style name="SubTitleTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/sub_title_font</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+
+    <style name="MenuTextStyle">
+        <item name="android:text">11sp</item>
+        <item name="android:textColor">@color/normal_font</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+
+</resources>
