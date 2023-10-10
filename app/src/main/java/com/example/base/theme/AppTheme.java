@@ -3,7 +3,7 @@ package com.example.base.theme;
 public class AppTheme {
 
     public static final int LIGHT_THEME_BACKGROUND = R.color.light_theme_background;
-    public static final int Dark_THEME_BACKGROUND = R.color.dark_theme_background;
+    public static final int DARK_THEME_BACKGROUND = R.color.dark_theme_background;
     public static final int LIGHT_THEME_FONT_COLOR = R.color.normal_font;
     public static final int DARK_THEME_FONT_COLOR = R.color.dark_theme_font;
 
